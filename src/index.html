@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Landing Project</title>
+  </head>
+  <body>
+    <header class="font-primary">
+      <nav
+        class="max-w-[1440px] container mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <div class="text-xl cursor-pointer">
+          <span class="text-primary font-medium">RevapSB</span>
+        </div>
+
+        <!-- Menu Items -->
+        <ul class="flex m-2 items-center space-x-8">
+          <li>
+            <a href="#about" class="text-primary-text">About</a>
+          </li>
+          <li><a href="#features" class="text-primary-text">Features</a></li>
+          <li><a href="#pricing" class="text-primary-text">Pricing</a></li>
+
+          <li>
+            <a href="#help" class="text-primary-text">Help</a>
+          </li>
+        </ul>
+
+        <div class="space-x-4">
+          <button class="text-primary-text hover:text-primary cursor-pointer">
+            Sign In
+          </button>
+          <button class="btn-outline">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="about"  class="section-container flex flex-col sm:flex-row items-center justify-between gap-8"
+    >
+      <!-- Left Content -->
+      <div class="md:w-1/2 mb-8 md:mb-0 space-y-8">
+        <h1
+          class="lg:text-6xl sm:text-5xl text-4xl font-bold text-heading-text leading-tight"
+        >
+          Anything to be <br class="block sm:hidden" />
+          easy with LastVPN.
+        </h1>
+        <p class="text-primary-text text-lg leading-relaxed max-w-xl">
+          Provide your details and wait for the incoming call to receive. Lorem
+          ipsum dolor sit amet.
+        </p>
+        <button class="btn">Get Started</button>
+      </div>
+
+      <!-- Right Content -->
+      <div class="md:w-1/2">
+        <img src="./images/banner.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section  class="section-container">
+      <div class="card">
+        <div
+          class="flex flex-col md:flex-row justify-around items-center divide-y md:divide-y-0 md:divide-x divide-gray-200"
+        >
+          <!-- user -->
+          <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+            <div class="p-4 bg-secondary/65 shrink-0 rounded-full">
+              <img src="./images/user.png" alt="" class="size-8" />
+            </div>
+            <div class="">
+              <h3 class="text-3xl font-semibold text-heading-text">90+</h3>
+              <p class="text-primary-text">Users</p>
+            </div>
+          </div>
+
+          <!-- Location -->
+             <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+            <div class="p-4 bg-secondary/65 shrink-0 rounded-full">
+              <img src="./images/location.png" alt="" class="size-8"/>
+            </div>
+            <div class="">
+              <h3 class="text-3xl font-semibold text-heading-text">30+</h3>
+              <p class="text-primary-text">Locations</p>
+            </div>
+          </div>
+
+          <!-- Server -->
+             <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+            <div class="p-4 shrink-0  bg-secondary/65 rounded-full">
+              <img src="./images/storage.png" alt="" class="size-8"/>
+            </div>
+            <div class="">
+              <h3 class="text-3xl font-semibold text-heading-text">50+</h3>
+              <p class="text-primary-text">Servers</p>
+            </div>
+          </div>
+         
+      </div>
+    </section>
+
+    <!-- Features Section -->
+       <section id="features"
+      class="section-container flex flex-col sm:flex-row items-center justify-between gap-8"
+    >
+      <!-- Left Content -->
+      
+
+      <div class="md:w-1/2">
+        <img src="./images/features.png" alt="" />
+      </div>
+      <!-- Right Content -->
+      
+      <div class="md:w-1/2 mb-8 md:mb-0 space-y-8">
+        <h1
+          class="lg:text-5xl sm:text-4xl text-3xl font-semibold text-heading-text leading-tight"
+        >
+          We Provide Many Features <br class="block sm:hidden"> You Can Use
+        </h1>
+        <p class="text-primary-text text-lg leading-relaxed w-2/3">
+          You can explore the features that we provide with fun and have their own functions each feature.
+        </p>
+       
+        <ul class="space-y-4 text-primary-text">
+          <li class="flex items-center gap-2">
+            <div class=" ">
+              <img src="./images/green-tick.png" alt="">
+            </div>
+            <span> 
+              Powerful online protection
+            </span></li>
+         <li class="flex items-center gap-2">
+            <div class=" ">
+              <img src="./images/green-tick.png" alt="">
+            </div>
+            <span> 
+              Internet without borders
+            </span></li>
+
+            <li class="flex items-center gap-2">
+            <div class=" ">
+              <img src="./images/green-tick.png" alt="">
+            </div>
+            <span> 
+              Supercharged VPN
+            </span></li>
+
+            <li class="flex items-center gap-2">
+            <div class=" ">
+              <img src="./images/green-tick.png" alt="">
+            </div>
+            <span> 
+              No specific time limits
+            </span></li>
+      
+          
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

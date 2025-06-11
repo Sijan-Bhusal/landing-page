@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@theme {
+  --color-primary: #f53838;
+  --color-secondary: rgba(245, 56, 56, 0.35);
+  --color-primary-text: #4f5665;
+  --color-heading-text: #30235b;
+  --font-primary: "Rubik", sans-serif;
+}
+
+@layer {
+  .btn {
+    @apply bg-primary text-white px-4 py-4 rounded-[30px] hover:bg-red-600 shadow-lg hover:shadow-xl transition duration-300  font-medium cursor-pointer;
+  }
+
+  .btn-outline {
+    @apply bg-transparent text-primary-text hover:bg-red-600 font-medium hover:text-white py-2 px-4 border-primary border-2 hover:border-transparent rounded-[20px] cursor-pointer;
+  }
+  .section-container {
+    @apply max-w-[1440px] container mx-auto px-4 py-16;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-8;
+  }
+}

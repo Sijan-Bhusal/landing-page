@@ -9,18 +9,29 @@
   --font-primary: "Rubik", sans-serif;
 }
 
+h1 {
+  @apply lg:text-4xl sm:text-3xl text-2xl font-bold text-heading-text leading-tight;
+}
+
+p {
+  @apply text-primary-text text-lg leading-relaxed max-w-xl;
+}
+
 @layer {
   .btn {
-    @apply bg-primary text-white px-4 py-4 rounded-[30px] hover:bg-red-600 shadow-lg hover:shadow-xl transition duration-300  font-medium cursor-pointer;
+    @apply bg-primary text-white px-8 py-3 rounded-md hover:bg-red-600 shadow-lg hover:shadow-xl transition duration-300  font-medium cursor-pointer;
   }
 
   .btn-outline {
-    @apply bg-transparent text-primary-text hover:bg-red-600 font-medium hover:text-white py-2 px-4 border-primary border-2 hover:border-transparent rounded-[20px] cursor-pointer;
+    @apply bg-transparent text-primary-twext hover:bg-red-600 font-medium hover:text-white py-2 px-4 border-primary border-2 hover:border-transparent rounded-[20px] cursor-pointer;
   }
   .section-container {
     @apply max-w-[1440px] container mx-auto px-4 py-16;
   }
   .card {
+    @apply bg-white rounded-xl shadow-lg p-8;
+  }
+  .card--plan {
     @apply bg-white rounded-xl shadow-lg p-8;
   }
 }
